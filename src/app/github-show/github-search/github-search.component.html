@@ -1,0 +1,7 @@
+<p>
+  github-search works!
+</p>
+<form (submit)="onSubmit()">
+	<p>Github Username: <input type="text" name="name" [(ngModel)]="name"></p>
+	<button type="submit" [disabled]="name===''">Calculate my Github Score</button>
+</form>
